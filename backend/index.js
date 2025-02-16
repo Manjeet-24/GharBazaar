@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
-    origin: "https://gharbazaar.netlify.app/",
+    origin: "https://gharbazaar.netlify.app",
     credentials: true
 }
 

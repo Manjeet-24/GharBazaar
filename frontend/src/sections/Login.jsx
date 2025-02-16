@@ -73,7 +73,7 @@ const Login = () => {
                   <FormGroup>
                     <input type="password" placeholder="Password" required id="password" onChange={handleChange} className="m-2"/>
                   </FormGroup>
-                  <Button className="text-black bg-red-600 p-2 rounded-xl" type="submit m-2">Login</Button>
+                  <Button className="text-black bg-red-600 p-2 rounded-xl m-2" type="submit">Login</Button>
                 </Form>
                 <p className="text-black">Don't have an account? <Link to="/register" className="text-black">Create</Link></p>
               </div>
